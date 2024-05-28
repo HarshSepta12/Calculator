@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 10px;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    padding: 20px;
+}
+
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3fr, 4);
+    grid-template-rows: repeat(3fr, 7);
+    text-align: center;
+    gap: 5px;
+    margin: auto;
+    width: 600px;
+    /* max-width: 500px; */
+    height: 600px;
+    margin-top: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item-0 {
+    grid-column: 1/5;
+    /* background-color: #DCD9D4; */
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-align: end;
+}
+.number{
+    font-size: 2rem;
+}
+/* .item-1{
+    grid-column: 1/5;
+    background-color: aqua; 
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+} */
+.item-2 {
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-3 {
+    grid-column: 2/3;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-4 {
+    grid-column: 3/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-5 {
+    grid-column: 4/5;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-6 {
+    grid-column: 4/5;
+    grid-row: 3/7;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-7 {
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-8 {
+    grid-column: 2/3;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-9 {
+    grid-column: 3/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-10 {
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-11 {
+    grid-column: 2/3;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-12 {
+    grid-column: 3/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-13 {
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-14 {
+    grid-column: 2/3;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-15 {
+    grid-column: 3/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-16 {
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-17 {
+    grid-column: 2/3;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-18 {
+    grid-column: 3/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item-19 {
+    grid-column: 1/4;
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-20 {
+    /* grid-column: 1/4; */
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    padding: 10px;
+}
